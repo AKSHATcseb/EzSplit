@@ -1,0 +1,104 @@
+{
+  "friends": [
+    {
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "image": "images/alice.jpg",
+      "email": "alice@example.com",
+      "password": "alice123",
+      "friendList": ["bobk", "charliet", "davidp"],
+      "friendRequests": ["graceh"],
+      "sentRequest": ["helenm"]
+    },
+    {
+      "name": "Bob King",
+      "username": "bobk",
+      "image": "images/bob.jpg",
+      "email": "bob@example.com",
+      "password": "bob123",
+      "friendList": ["alicej", "davidp", "helenm"],
+      "friendRequests": ["charliet"],
+      "sentRequest": ["frankl"]
+    },
+    {
+      "name": "Charlie Turner",
+      "username": "charliet",
+      "image": "images/charlie.jpg",
+      "email": "charlie@example.com",
+      "password": "charlie123",
+      "friendList": ["alicej", "frankl"],
+      "friendRequests": ["bobk"],
+      "sentRequest": ["davidp", "graceh"]
+    },
+    {
+      "name": "David Park",
+      "username": "davidp",
+      "image": "images/david.jpg",
+      "email": "david@example.com",
+      "password": "david123",
+      "friendList": ["alicej", "bobk"],
+      "friendRequests": ["charliet"],
+      "sentRequest": ["isabellaw"]
+    },
+    {
+      "name": "Emma Wilson",
+      "username": "emmaw",
+      "image": "images/emma.jpg",
+      "email": "emma@example.com",
+      "password": "emma123",
+      "friendList": ["graceh", "isabellaw"],
+      "friendRequests": ["frankl"],
+      "sentRequest": ["bobk"]
+    },
+    {
+      "name": "Frank Lee",
+      "username": "frankl",
+      "image": "images/frank.jpg",
+      "email": "frank@example.com",
+      "password": "frank123",
+      "friendList": ["charliet", "graceh"],
+      "friendRequests": ["emmaw"],
+      "sentRequest": ["bobk"]
+    },
+    {
+      "name": "Grace Hall",
+      "username": "graceh",
+      "image": "images/grace.jpg",
+      "email": "grace@example.com",
+      "password": "grace123",
+      "friendList": ["emmaw", "frankl"],
+      "friendRequests": ["alicej"],
+      "sentRequest": ["isabellaw"]
+    },
+    {
+      "name": "Helen Moore",
+      "username": "helenm",
+      "image": "images/helen.jpg",
+      "email": "helen@example.com",
+      "password": "helen123",
+      "friendList": ["bobk"],
+      "friendRequests": ["alicej"],
+      "sentRequest": ["davidp"]
+    },
+    {
+      "name": "Isa Bella",
+      "username": "isabellaw",
+      "image": "images/isabella.jpg",
+      "email": "isabella@example.com",
+      "password": "isabella123",
+      "friendList": ["emmaw", "graceh"],
+      "friendRequests": ["davidp"],
+      "sentRequest": ["charliet"]
+    },
+    {
+      "name": "Jack Brown",
+      "username": "jackb",
+      "image": "images/jack.jpg",
+      "email": "jack@example.com",
+      "password": "jack123",
+      "friendList": ["alicej", "bobk"],
+      "friendRequests": ["graceh"],
+      "sentRequest": ["helenm", "emmaw"]
+    }
+  ]
+}
